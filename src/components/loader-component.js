@@ -17,7 +17,7 @@ export class Loader extends HTMLElement {
         loaderWrapper.setAttribute("class", "nlw-loading");
 
         const loaderImg = document.createElement("img");
-        loaderImg.src = this.getAttribute("loader-photo") || "./assets/img/logo.svg";
+        loaderImg.src = this.getAttribute("loader-photo") || "./src/assets/img/logo.svg";
         loaderImg.alt = this.getAttribute("loader-description") || "Imagem relacionada ao logotipo do evento da NLW Spacetime.";
 
         loaderWrapper.appendChild(loaderImg);

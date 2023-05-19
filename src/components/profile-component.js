@@ -16,7 +16,7 @@ export class Profile extends HTMLElement {
 
     createContent() {
         const imgLogo = document.createElement("img");
-        imgLogo.src = this.getAttribute("logo-photo") || "./assets/img/logo.svg";
+        imgLogo.src = this.getAttribute("logo-photo") || "./src/assets/img/logo.svg";
         imgLogo.alt = this.getAttribute("logo-description") || "Imagem relacionada ao logotipo do evento da NLW Spacetime.";
 
         const imgProfile = document.createElement("img");
@@ -62,7 +62,7 @@ export class Profile extends HTMLElement {
                 border-right: .1rem solid;
                 border-image: linear-gradient(#727275, #2c2c31) 1;
             
-                background-image: url("./assets/img/background.svg");
+                background-image: url("./src/assets/img/background.svg");
                 background-position: top right;
                 background-repeat: no-repeat;
                 background-size: auto 100%;
