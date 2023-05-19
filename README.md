@@ -69,7 +69,7 @@
 
 <h2 id="projeto">💻 <b>Projeto:</b></h2>
 
-- [Veja o projeto online]()
+- [Veja o projeto online](https://explorer-nlw-spacetime.vercel.app/)
 
 <h2 id="layout">🎨 <b>Layout:</b></h2>
 
