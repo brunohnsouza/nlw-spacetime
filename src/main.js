@@ -10,7 +10,8 @@ window.addEventListener("load", () => {
     setTimeout(() => {
         const loader = document.querySelector("nlw-loader");
 
-        document.body.removeChild(loader)
+        document.body.removeChild(loader);
+        document.body.style = "overflow-y: auto";
 
         const myProfile = document.querySelector("my-profile");
         const nav = document.querySelector("nav");
