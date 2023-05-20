@@ -19,6 +19,7 @@ body {
     grid-template-areas: "profile timeline";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100vh;
+    overflow-y: hidden;
 }
 
 ::-webkit-scrollbar {
