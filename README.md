@@ -39,15 +39,15 @@
 
     - **`<nlw-loader></nlw-loader>`** : Tag usada para criar o loader do site. Tal tag possui os seguintes atributos:
 
-        - `loader-photo=""=""` -> Passe a URL do seu logotipo. Caso não passe, o logotipo da NLW Spacetime aparecerá.
+        - `loader-photo=""` -> Passe a URL do seu logotipo. Caso não passe, o logotipo do NLW Spacetime aparecerá.
 
-        - `loader-description=""` -> Passe o texto alternativo do seu logotipo. Caso não passe, tal texto será uma descrição do logotipo da NLW Spacetime.
+        - `loader-description=""` -> Passe o texto alternativo do seu logotipo. Caso não passe, tal texto será uma descrição do logotipo do NLW Spacetime.
 
     - **`<my-profile></my-profile>`** : Tag usada para criar o perfil do lado esquerdo do site. Tal tag possui os seguintes atributos:
 
-        - `logo-photo=""` -> Passe a URL do seu logotipo. Caso não passe, o logotipo da NLW Spacetime aparecerá.
+        - `logo-photo=""` -> Passe a URL do seu logotipo. Caso não passe, o logotipo do NLW Spacetime aparecerá.
 
-        - `logo-description=""` -> Passe o texto alternativo do seu logotipo. Caso não passe, tal texto será uma descrição do logotipo da NLW Spacetime.
+        - `logo-description=""` -> Passe o texto alternativo do seu logotipo. Caso não passe, tal texto será uma descrição do logotipo do NLW Spacetime.
         
         - `profile-photo=""` -> Passe a URL da sua foto de perfil. Caso não passe, uma imagem predeterminada aparecerá.
         
